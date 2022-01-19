@@ -14,4 +14,6 @@ def fizzbuzz(number)
   end
 end
 
-# fizzbuzz(345)
+(1..110).each do |number|
+  puts fizzbuzz(number)
+end
