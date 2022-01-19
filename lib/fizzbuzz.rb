@@ -1,6 +1,8 @@
 def fizzbuzz(number)
-    "fizz"
-    puts "fizz"
+  if number % 3 == 0
+  puts "fizz"
+  return "fizz"
+  end
 end
 
-fizzbuzz(4)
+fizzbuzz(3)
